@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "The Decomposition of Conscious Access: Working Memory for Masked Sequences in Monkey Prefrontal Cortex"
+type: software
+version: 1.0.0-review
+date-released: 2026-07-13
+license: MIT
+authors:
+  - family-names: Zhou
+    given-names: Hao
+  - family-names: Fang
+    given-names: Wen
+  - family-names: Fu
+    given-names: Guobin
+  - family-names: Zhang
+    given-names: Yiteng
+  - family-names: Min
+    given-names: Bin
+  - family-names: Dehaene
+    given-names: Stanislas
+  - family-names: Wang
+    given-names: Liping
+

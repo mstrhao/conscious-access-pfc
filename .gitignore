@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+
+results/*
+!results/.gitkeep
+data/_figs/*
+!data/_figs/.gitkeep
+
+# Restored from checksum-pinned split archives by ./run prepare-data.
+data/ssDat_full_groot.pkl
+data/ssDat_full_2019.pkl
+data/ssDat_rsp_0239.pkl
+data/ssDat_full_0239.pkl
+data/cswm_reconsDA_groot.pkl
+data/ssDat_rsp_groot.pkl
+data/cswm_recons_groot.pkl
+data/*.partial
+

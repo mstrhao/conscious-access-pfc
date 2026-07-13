@@ -72,55 +72,22 @@ from sklearn.metrics import accuracy_score
 from sklearn.impute import SimpleImputer
 
 
-currentpath = os.getcwd()
-print('currentpath: ', currentpath)
-cpkeys = currentpath.split('/')
-subjID = cpkeys[4]; date = cpkeys[-3]; anatype = cpkeys[-1];
+from pathlib import Path
 
-if (subjID != 'group'):
-    ROI = cpkeys[-4];
-    datepath = '/'.join(cpkeys[:7])
-    studypath = '/'.join(cpkeys[:6])
-    print('studypath:',studypath)
-    outputdir = currentpath+'/data'
-    if not os.path.exists(outputdir): os.makedirs(outputdir)
-    gdatapath = datepath+'/gdata'
-    if not os.path.exists(gdatapath): os.makedirs(gdatapath)
-    markerFile=gdatapath+'/eventTimes.mat'
-    if (subjID == '2019')|(subjID == '0239'):
-        logpath = '/mnt/sda/TP_CON_raw/'+subjID+'/'+ROI+'/_logs'
-    
-        if date!='session':
-            rawpath = '/mnt/sda/TP_CON_raw/'+subjID+'/'+ROI+'/'+date
-            markerPath = rawpath+'/marker/Episode001.h5'
-            matPath = rawpath+'/matlab'
-            rawFilePath = rawpath+'/tpdata/Image_001_001.raw'
-    
-            h5FilePath = gdatapath+'/Image_001_001.h5'
-            # dataPath = gdatapath+'/'+anatype[3:]+'/plane0'
-            dataPath = gdatapath+'/s2pmcorr/plane0'
-
-    elif subjID == 'groot':
-        logpath = '/mnt/backup2/ephys_CON_raw/'+subjID+'/_logs'
-        
-        if date!='session':
-            rawpath = '/mnt/backup2/ephys_CON_raw/'+subjID+'/'+date
-            
-            rawh5Path = gdatapath+'/raw_orig.h5'
-            # dataPath = gdatapath+'/'+anatype[3:]
-            dataPath = gdatapath+'/analysis'
-            resh5Path = dataPath+'/raw_res.h5'
-            preph5Path = dataPath+'/raw_prep.h5'
-            spikeh5Path = dataPath+'/raw_spk.h5'
-            muah5Path = dataPath+'/raw_mua.h5'
-            
-        ch_names = [f'PFC{i+1:03d}' if i < 160 else f'PPC{i+1-160:03d}' for i in range(256)]
-        ch_types = [f'eeg' for i in range(256)]
-    
-elif (subjID == 'group'):
-    studypath = '/'.join(cpkeys[:4])
-    outputdir = currentpath+'/data'
-    if not os.path.exists(outputdir): os.makedirs(outputdir)
+# Release-package paths are resolved from this file, not from the launch
+# directory or the author's workstation hierarchy.  Environment variables let
+# Code Ocean or another runner mount inputs and results elsewhere.
+project_root = Path(__file__).resolve().parents[1]
+currentpath = str(project_root)
+outputdir = str(
+    Path(os.environ.get("CONSCIOUS_ACCESS_DATA_DIR", project_root / "data")).resolve()
+)
+resultsdir = str(
+    Path(os.environ.get("CONSCIOUS_ACCESS_RESULTS_DIR", project_root / "results")).resolve()
+)
+figdir = str(Path(resultsdir) / "figures")
+Path(outputdir).mkdir(parents=True, exist_ok=True)
+Path(figdir).mkdir(parents=True, exist_ok=True)
     
 def subjParams(animID):
     # sfel=1000; # sampling frequency for eyelink data
@@ -145,6 +112,7 @@ def subjParams(animID):
         sftp = 1000  # sampling frequency for downsampled FR
         t1 = int(-0.5*sftp); t2 = int(3.5*sftp)
         tr1 = 5; tr2 = 30 # sample period 50ms - 600ms
+        tc1 = 50; tc2 = 150
         baseline_window = [0,40] # -400ms ~ 0ms
 
     elif animID == '0239':
@@ -524,7 +492,6 @@ def rplot(X,times,vmin,vmax,Params,title=''):
     cbar.set_label('β Coefficient',fontsize=fs/6*5,rotation=0,labelpad=0,y=1.4)
     cbar.ax.tick_params(labelsize=fs/3*2);
 #     plt.subplots_adjust(wspace = 0.11, hspace = None)
-
 
 
 

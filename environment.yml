@@ -1,0 +1,9 @@
+name: conscious-access
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.13
+  - pip
+  - pip:
+      - -r requirements-lock.txt
+
