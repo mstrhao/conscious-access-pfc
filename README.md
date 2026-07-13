@@ -1,6 +1,6 @@
 # Conscious-access analysis and figure-reproduction package
 
-Release candidate prepared for peer review of Nature Neuroscience manuscript
+Release for Nature Neuroscience manuscript
 **NN-A96833**, “The Decomposition of Conscious Access: Working Memory for
 Masked Sequences in Monkey Prefrontal Cortex.”
 
