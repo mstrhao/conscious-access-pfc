@@ -5,9 +5,7 @@ Release candidate prepared for peer review of Nature Neuroscience manuscript
 Masked Sequences in Monkey Prefrontal Cortex.”
 
 This repository contains six analysis notebooks, their shared helper code, and
-the processed/derived inputs used by those notebooks. It is designed to let a
-reviewer inspect the analyses and regenerate the notebooks' inline plots and
-printed statistics without access to the authors' workstation paths.
+the processed/derived inputs used by those notebooks.
 
 ## Quick start
 
@@ -95,8 +93,8 @@ notebooks completed without Python cell errors on macOS/Apple Silicon with
 Python 3.12.13. A final Linux/Code Ocean run remains to be recorded after
 importing the frozen Git revision.
 
-## License and citation
+## License
 
 Code is released under the MIT License, copyright 2026 Hao Zhou. Processed data
 are supplied for verification of this manuscript; confirm any broader reuse
-terms with the corresponding author. Citation metadata are in `CITATION.cff`.
+terms with the corresponding author.
