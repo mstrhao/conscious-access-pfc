@@ -48,8 +48,7 @@ notebook at a time is the recommended review route.
 | `06_model_prediction.ipynb` | derived control/model analyses corresponding to Fig. 6G-H |
 
 The package starts from processed and derived analysis objects. It does **not**
-contain raw imaging/electrophysiology recordings or the full upstream
-preprocessing pipeline. The supplied `06_model_prediction.ipynb` analyzes the
+contain raw imaging/electrophysiology recordings. The supplied `06_model_prediction.ipynb` analyzes the
 derived Fig. 6G-H inputs; it does not contain RNN training code, checkpoints,
 or producers for Fig. 6A-F. Manual schematics and microscopy/electrode-layout
 panels are not computational outputs. See `docs/FIGURE_CODE_MAP.md`.
