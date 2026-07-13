@@ -1,4 +1,4 @@
-# Conscious-access analysis and figure-reproduction package
+# Decomposition of Conscious Access
 
 Release for Nature Neuroscience manuscript
 **NN-A96833**, “The Decomposition of Conscious Access: Working Memory for
