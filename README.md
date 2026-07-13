@@ -63,12 +63,7 @@ stored losslessly as ordered gzip streams split into parts of at most
 
 to verify every part and atomically restore the original byte-identical files.
 The logical-file SHA-256 values and every archive-part checksum are recorded in
-`data/large_files_manifest.json`. Reconstructed files are ignored by Git.
-
-This removes the per-blob blocker but does not make the repository small. The
-compressed clone remains large; Git LFS, an archival data repository, or a Code
-Ocean data asset is preferable if ordinary Git hosting becomes slow or rejects
-the overall repository size.
+`data/large_files_manifest.json`. 
 
 ## Reproducibility outputs
 
