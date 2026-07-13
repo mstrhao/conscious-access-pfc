@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "algorithm": "gzip stream split into ordered parts",
+  "part_size_limit_bytes": 90000000,
+  "files": [
+    {
+      "logical_path": "data/ssDat_full_groot.pkl",
+      "size_bytes": 787118167,
+      "sha256": "3d4ec54fd220dedefaa40b11e0bf2b23ed7a3501220b5f208e941cdc41bee5cd",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 759503392,
+      "parts": [
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "a41ad4280eb2879fd20e6416953d7e349a18e1d4baa100135a8b5b0cd4bc2090"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part002",
+          "size_bytes": 90000000,
+          "sha256": "fad2c3bcb5cdd66c4c4ae2630aa0936bd9290424a714ac16f943a31892bbfb94"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part003",
+          "size_bytes": 90000000,
+          "sha256": "06ba16622933b63cd7a537523741741301faabef552df3cbcc6b42c572c18528"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part004",
+          "size_bytes": 90000000,
+          "sha256": "e269601c220cdc8a8974cb5daeda02e207034859f0f96ad25fdbc68ebf43fea2"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part005",
+          "size_bytes": 90000000,
+          "sha256": "2bdb632aea5dc3e70a737ab4134906857c22a86b6c4451172b6a379d7c8351a0"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part006",
+          "size_bytes": 90000000,
+          "sha256": "1bdecd345c608a1496e85c64c7c6f86ded359927441c43d4be3bbfb460a1e21a"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part007",
+          "size_bytes": 90000000,
+          "sha256": "d401409b9b9004fd7dde7b0965bae39a661cf1cf28a84de887d6e53eeb05b737"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part008",
+          "size_bytes": 90000000,
+          "sha256": "56bbe5cfa134a3380479a2c15791ece25e03106a38b05ae7c509831d3531506e"
+        },
+        {
+          "path": "archives/ssDat_full_groot.pkl.gz.part009",
+          "size_bytes": 39503392,
+          "sha256": "1078396f46e7a22d9b48d9603e5e98ce9790caf1d10c1e9f1faa9d88e79ca905"
+        }
+      ],
+      "build_seconds": 3.285
+    },
+    {
+      "logical_path": "data/ssDat_full_2019.pkl",
+      "size_bytes": 596449564,
+      "sha256": "910f5d252af0e247682cfc36ee60628775bf59cfdc44c8408986d4fb041774da",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 572598929,
+      "parts": [
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "4001d85a164237ed403598f33c12253b3205debf8ab2eea2c8e35e3402dcd6f1"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part002",
+          "size_bytes": 90000000,
+          "sha256": "d4a9e50abd25f658746819bb23f270af007f130e5f564ae5578241dea5041b13"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part003",
+          "size_bytes": 90000000,
+          "sha256": "4a05271a90a0c5607f2e596ba95d0e0663ea23fd2cb1ce3eacbee75de3ac4a3b"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part004",
+          "size_bytes": 90000000,
+          "sha256": "5ecb8e64bc56d802833b34721b58277475f7b8ee056ed406952f04d1714a695b"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part005",
+          "size_bytes": 90000000,
+          "sha256": "6fbc09732c8700abda6a107b4d6e7afade0a0560e216ef6368337d6c5f8bf114"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part006",
+          "size_bytes": 90000000,
+          "sha256": "5015f77b407130b7e58835f596d83bd305213f37ac160a130d11c1842148eb23"
+        },
+        {
+          "path": "archives/ssDat_full_2019.pkl.gz.part007",
+          "size_bytes": 32598929,
+          "sha256": "316c71591c4070a40b6da35ff003772bc16edfdd4a8854a643a105674b1fa694"
+        }
+      ],
+      "build_seconds": 2.788
+    },
+    {
+      "logical_path": "data/ssDat_rsp_0239.pkl",
+      "size_bytes": 502577177,
+      "sha256": "04f5a4ed4f5f3d0d410f117daac9c85060ec581d69a433eff2e6863500e9b0dd",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 479285482,
+      "parts": [
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "3602171366f13e7d8b31ffc90c0631847eda604327db2983de36fbff972e82fb"
+        },
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part002",
+          "size_bytes": 90000000,
+          "sha256": "c5b05d32f9ea0ea36ed0a81cf1cf908964b08a206583b3b44d779dc397455462"
+        },
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part003",
+          "size_bytes": 90000000,
+          "sha256": "3a73bdc6325ad38979c2442178ea7edcfd7d258768b9533f00783525a29cd3f6"
+        },
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part004",
+          "size_bytes": 90000000,
+          "sha256": "4ac60859470c963e1bb0acd35a5422874d6c78460afa6a6c45d09fa1fe6f15e7"
+        },
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part005",
+          "size_bytes": 90000000,
+          "sha256": "c305826237927a599e16170d40b738fb311688d43e5cb3ee2fb27fde6245c903"
+        },
+        {
+          "path": "archives/ssDat_rsp_0239.pkl.gz.part006",
+          "size_bytes": 29285482,
+          "sha256": "294f9b433c9728a7f6799e9878d8f2b9c1021c7d734a54184146d40a5b166d11"
+        }
+      ],
+      "build_seconds": 2.336
+    },
+    {
+      "logical_path": "data/ssDat_full_0239.pkl",
+      "size_bytes": 263460124,
+      "sha256": "d7db56480142b4554df234573bc15de60786bba1de0065ff38136822609bbb9b",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 249566605,
+      "parts": [
+        {
+          "path": "archives/ssDat_full_0239.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "0d1c92332a5a8a410d1558b6ce0bafaaec09cc6d1a87f01004c3bb54929511c5"
+        },
+        {
+          "path": "archives/ssDat_full_0239.pkl.gz.part002",
+          "size_bytes": 90000000,
+          "sha256": "8c61fc519e422ac33a5ed8514f710cb9655a91b9e47fbe577796dc572d25b60e"
+        },
+        {
+          "path": "archives/ssDat_full_0239.pkl.gz.part003",
+          "size_bytes": 69566605,
+          "sha256": "36c0947ef92fe7a1ae6b1a8a0b2f7a991b3c269d94562be00c9b4cf4e23a10bf"
+        }
+      ],
+      "build_seconds": 1.251
+    },
+    {
+      "logical_path": "data/cswm_reconsDA_groot.pkl",
+      "size_bytes": 218455970,
+      "sha256": "3c34e2565c4ca620aede9949138773cff423fb46c0f2e9ba66a72f1b508bcbc3",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 206494159,
+      "parts": [
+        {
+          "path": "archives/cswm_reconsDA_groot.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "4b859699cccf948435c58eb211c301f253e1b44ac36d4dec52087c61662ae6e8"
+        },
+        {
+          "path": "archives/cswm_reconsDA_groot.pkl.gz.part002",
+          "size_bytes": 90000000,
+          "sha256": "16c2309506642af8f1107323fac0c7c474f242b9a0e804327f19377f1d4e3a59"
+        },
+        {
+          "path": "archives/cswm_reconsDA_groot.pkl.gz.part003",
+          "size_bytes": 26494159,
+          "sha256": "75669fcbd6f8b8ba6c640024e805c3aedb1a3af713dc420af95e2c284d340768"
+        }
+      ],
+      "build_seconds": 1.068
+    },
+    {
+      "logical_path": "data/ssDat_rsp_groot.pkl",
+      "size_bytes": 124156214,
+      "sha256": "7572d0a5deda551509da6e0a497b96ca79750c21c32cf4853f1380875f31ae2c",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 120339553,
+      "parts": [
+        {
+          "path": "archives/ssDat_rsp_groot.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "27bf25431e1b60bff392e3850c160dcb83dac723320432daeb4236bbdd45e2c1"
+        },
+        {
+          "path": "archives/ssDat_rsp_groot.pkl.gz.part002",
+          "size_bytes": 30339553,
+          "sha256": "ca2c300a13d4b1e51f355daf36e88eec329d7523877e1c0f4e677aa75261915b"
+        }
+      ],
+      "build_seconds": 0.618
+    },
+    {
+      "logical_path": "data/cswm_recons_groot.pkl",
+      "size_bytes": 114661094,
+      "sha256": "12e561e1710fe7d401beda9e9278c4d020f707a6f2204bb1482254bd5b010404",
+      "compression": "gzip-level-6",
+      "compressed_size_bytes": 110333329,
+      "parts": [
+        {
+          "path": "archives/cswm_recons_groot.pkl.gz.part001",
+          "size_bytes": 90000000,
+          "sha256": "c7fc9ff58ab49001eaa768bfc1939ddc8bd73280ffc2e75e85f60780fad91a2d"
+        },
+        {
+          "path": "archives/cswm_recons_groot.pkl.gz.part002",
+          "size_bytes": 20333329,
+          "sha256": "1aa02484f4247657d02c520c4e88084fee2d852d97f09d4800abeef145e1f86e"
+        }
+      ],
+      "build_seconds": 0.537
+    }
+  ]
+}
